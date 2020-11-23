@@ -96,15 +96,15 @@ jalan("\033[1;92m       ")
 
 
 
-CorrectUsername = "BABY"
-CorrectPassword = "BABY"
+CorrectUsername = "baby"
+CorrectPassword = "baby"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;91m📋 \x1b[1;95mTool Username \x1b[1;91m»» \x1b[1;91m")
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m🗝 \x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
+            print "Logged in successfully as " + username #Dev:baby
 	    time.sleep(2)
             loop = 'false'
         else:
